@@ -371,7 +371,8 @@
 		"hurryCostModifier": 35,
 		"requiredTech": "Masonry"
 		"uniques": ["Wall",
-		"Destroyed when the city is captured", "[+10]% Strength <for [Melee] units> <when defending> <in cities with a [Läfīsjdìgøk]>"]
+		"Destroyed when the city is captured", "[+10]% Strength <for [Melee] units> <when defending> <in [City center] tiles>"] // <in cities with a [Läfīsjdìgøk]>
+		//it seems there is no building called Läfīsjdìgøk. maybe it mean <in [City center] tiles>?
  },
  {
 		"name": "Core of the Xyz",
@@ -431,7 +432,7 @@
 		"hurryCostModifier": 35,
     "maintenance": 2,
     "requiredTech": "Bronze Working"
-		"uniques": ["Barracks", "Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"]
+		"uniques": ["Barracks", "Destroyed when the city is captured", "New [Military] units start with [25] XP [in this city]"]
   }
 //Plert
     { 
