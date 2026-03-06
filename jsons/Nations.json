@@ -101,7 +101,7 @@
 		"innerColor": [115,82,235],
 		"uniqueName": "Bertahan Untuk Budaya",
 		"uniqueText": "+1 Great Artist Point from [Culture] buildings in Capital\n+1 Great Artist Point in all cities with at least 10 [Population]\nNewly-trained land units may pass [Mountain] tiles in Friendly territory after discovering [Civil Service]",
-		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Trekker] promotion <after discovering [Civil Service]>", "New [Keraton Guard] units start with [15] Experience [in all cities]",
+		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Trekker] promotion <after discovering [Civil Service]>", "New [Keraton Guard] units start with [15] XP [in all cities]",
 					"Gain a free [Population Artist] [in all cities] <in cities with at least [10] [Population]>",
 					"Gain a free [Monument Artist] [in all cities] <in cities with a [Monument]> <in cities with a [Palace]>",
 					"Gain a free [Amphitheater Artist] [in all cities] <in cities with a [Amphitheater]> <in cities with a [Palace]>",
@@ -600,7 +600,7 @@
 		"outerColor": [250, 250, 250],
 		"innerColor": [50, 200, 250],
 		"uniqueName": "Nationalistic Fervor",
-		"uniques": ["[+20]% [Production] [in all cities] <when between [20] and [200] Happiness>", "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["[+20]% [Production] [in all cities] <when between [20] and [200] [Happiness]>", "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
 		"cities":["Skandros","Velasno","Halandorf","Trajen City","Ferlon","Ferlindhar","Selnos","Hoskoff","Ollendorf","Valderath","Wilneton","Reinenkoff"]
   },
 
@@ -834,7 +834,7 @@
 		"preferredVictoryType": "Diplomatic",
 
 		"uniqueName": "Home Shards",
-		"uniques": ["Gain [10] Influence with a [{Land} {military units}] gift to a City-State",
+		"uniques": ["Gain [10] Influence with a [{Land} {Military}] gift to a City-State",
 				"[+1 Culture] [in all cities] <during a Golden Age>"],
 		"cities": ["Kukunteli","Pistria","Ancitatians","Vivlia","Vondeplend"]
 	},
