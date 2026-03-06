@@ -73,4 +73,11 @@
       			"[+50]% Strength <for [9999] turns> <for [Gray Goo unit] units>"
 		]
 	},
+	//EbiKoumori of Midori
+	{
+		"name": "Autumn Curse",
+		"uniques":[
+			"Turn this tile into a [Autumnland] tile <in [{Land} {non-[Tundra]} {non-[Snow]} {non-[Desert]}] tiles> <upon being defeated>",
+		]
+	}
 ]
