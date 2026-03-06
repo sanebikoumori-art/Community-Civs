@@ -1,0 +1,14 @@
+[
+        {
+		    "name": "Autumnland",
+		    "type": "Land",
+		    "food": 1,
+		    "production": 1,
+		    "movementCost": 1,
+            "RGB": [249, 23, 32],
+            "uniques": [
+                "Doesn't generate naturally",
+                "Excluded from map editor"
+            ]
+    },
+]
