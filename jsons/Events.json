@@ -1,0 +1,36 @@
+[
+    {
+        "name":"New Building Found",
+        "civilopediaText":[
+            {"text":"New Building Found", "centered":true, "header":2,"color": "#FFFFFF"},
+            {"extraImage":"war1", "imageSize":410},
+			{"text":"Choose the reward","centered":true},
+        ],
+        "choices": [
+			{
+				"text": "Food",
+                "uniques":["Provides the cheapest [Food] building in your first [3] cities for free"]
+			},
+            {
+				"text": "Production",
+                "uniques":["Provides the cheapest [Production] building in your first [3] cities for free"]
+			},
+            {
+				"text": "Science",
+                "uniques":["Provides the cheapest [Science] building in your first [3] cities for free"]
+			},
+            {
+				"text": "Gold",
+                "uniques":["Provides the cheapest [Gold] building in your first [3] cities for free"]
+			},
+            {
+				"text": "Culture",
+                "uniques":["Provides the cheapest [Culture] building in your first [3] cities for free"]
+			},
+            {
+				"text": "Faith",
+                "uniques":["Provides the cheapest [Faith] building in your first [3] cities for free"]
+			}
+        ]
+    }
+]
