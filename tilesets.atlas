@@ -1,0 +1,26 @@
+Tilesets1.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Autumnland
+  rotate: false
+  xy: 64, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Autumnforest
+  rotate: false
+  xy: 64, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Autumnfarm
+  rotate: false
+  xy: 64, 108
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
