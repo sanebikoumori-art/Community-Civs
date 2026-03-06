@@ -547,5 +547,23 @@
 		"requiredTech": "Chivalry",
 		"uniques": ["[+2 Science] per [6] population [in this city]","[+1 Gold]"]
 	},
-
+	//Midori(EbiKoumori)
+    {
+		"name": "Grimoire of Buildings.json",
+		"uniqueTo": "Midori",
+		"replaces": "National Epic",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Gain a free [Buildings] [in all cities] <every [50] turns>"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Grimoire of Techs.json",
+		"uniqueTo": "Midori",
+		"replaces": "National College",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Research [50]% of [All] <every [10] turns>"],//that mean random technology
+		"requiredTech": "Engineering"
+	}
 ]
