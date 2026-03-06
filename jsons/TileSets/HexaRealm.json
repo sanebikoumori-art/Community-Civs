@@ -3,5 +3,10 @@
 	"ruleVariants": {
 		"Ocean+Skynet": ["Ocean", "Ocean+Skynet"],
 		"Coast+Skynet": ["Coast", "Coast+Skynet"],
+		"Autumnland+Forest": ["Autumnland","Autumnforest"],
+		"Autumnland+Farm": ["Autumnland","Autumnfarm"],
+        "Autumnland+Wheat+Farm": ["Autumnland","Autumnfarm","Wheat"],
+		"Autumnland+Hill+Farm": ["Autumnland","Autumnfarm","Hill"],
+        "Autumnland+Hill+Wheat+Farm": ["Autumnland","Autumnfarm","Hill","Wheat"],
 	}
 }
