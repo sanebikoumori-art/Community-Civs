@@ -1127,7 +1127,7 @@
     	"tradeRequest": "Do you know the world wrapped unciv map is surface of mobius ling or cylindrical geometry?",
 
 		"uniqueName": "Endless Autumn",
-		"uniques": ["[+1 Food] from [{Featureless} {Autumnland}] tiles [in all cities]","Comment [All units gain Autumn Curse Promotion (on death, generate Autumn Land on land). This spreads to all adjacent units.]","[All] units gain the [Autumn Curse] promotion <hidden from users>"],
+		"uniques": ["[+1 Food] from [{Featureless} {Autumnland}] tiles [in all cities]","Comment [All units gain Autumn Curse Promotion (on death, generate Autumn Land on land). This spreads to units who attacked cursed unit.]","[All] units gain the [Autumn Curse] promotion <hidden from users>"],
 		"cities": ["Nutaunagi","Midorimushi","Ebimori","Akagai","Blue Sango","Tanicity","Rikugani","Benizuwaigani","Yatsumeunagi","Maguro","Kurage","Iruka","Umigame","Koumoriebi","Hirame","Unagi","Iseebi","Shiroiruka","Kawairuka","Suppon"],
 		"spyNames":["Mazime","Sekkachi","Okubyo","Namake","Ikari","Raku","Utu"]
 	}
