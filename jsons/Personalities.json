@@ -377,7 +377,7 @@
       "diplomacy":2,
       "loyal":1,
       "expansion": 1,
-		"uniques": ["Will not build [Monument] <before turn number [1]>","Will not build [non-[Great Library]] <if [Great Library] is not constructed by anybody> <in [Capital] cities>","Will not build [Faith]","Will not build [Military] <before turn number [40]>"],
+		"uniques": ["Will not build [Monument] <before turn number [1]>","Will not build [non-[Great Library]] <after discovering [Philosophy]> <if [Great Library] is not constructed by anybody> <in [Capital] cities>","Will not build [Faith]","Will not build [Military] <before turn number [40]>"],
 		"civilopediaText": [
 			{"text": "Alexander the Great, born in Macedon, was one of the most skilled generals, even more by his young age, and in only 17 years he conquered all the Greek known world."}
 		]
