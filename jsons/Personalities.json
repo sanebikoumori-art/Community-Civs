@@ -345,5 +345,41 @@
 			"Autocracy": 3,
 			"Order": 3
 		},
+	},
+	//Midori(EbiKoumori)
+	{
+		"name": "Autumn",
+		"preferredVictoryType": "Scientific",
+		"culture": 1,
+		"faith": 0,
+		"food": 2,
+		"gold": 0.5,
+		"happiness": 1,
+		"production": 2,
+		"science": 3,
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 0.5,
+			"Honor": 0,
+			"Commerce": 0.5,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 2,
+			"Freedom": 0,
+			"Autocracy": 0,
+			"Order": 1
+		},
+		//act
+		"military": 1,
+		"aggressive": 1,
+      "declareWar": 1,
+      "commerce": 1,
+      "diplomacy":2,
+      "loyal":1,
+      "expansion": 1,
+		"uniques": ["Will not build [Monument] <before turn number [1]>","Will not build [non-[Great Library]] <if [Great Library] is not constructed by anybody> <in [Capital] cities>","Will not build [Faith]","Will not build [Military] <before turn number [40]>"],
+		"civilopediaText": [
+			{"text": "Alexander the Great, born in Macedon, was one of the most skilled generals, even more by his young age, and in only 17 years he conquered all the Greek known world."}
+		]
 	}
 ]
