@@ -77,6 +77,7 @@
 	{
 		"name": "Autumn Curse",
 		"uniques":[
+			"Cursed",
 			"Turn this tile into a [Autumnland] tile <in [{Land} {non-[Tundra]} {non-[Snow]} {non-[Desert]}] tiles> <upon being defeated>",
 		]
 	}
