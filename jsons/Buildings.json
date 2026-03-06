@@ -30,7 +30,7 @@
   "replaces": "Courthouse",
   "uniqueTo": "Lasty Nomads",
   "requiredTech": "Mathematics",
-  "uniques": ["Remove extra unhappiness from annexed cities",
+  "uniques": ["Removes extra unhappiness from annexed cities",
 	      "[-20]% Unhappiness from [Population] [in this city] <during We Love The King Day>",
               "[+20]% [Culture] [in this city] <during a Golden Age>"],
   "cost": 100,
@@ -226,25 +226,16 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
 	        "maintenance": 3,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"]
 	},
-	{	"name": "Sparring Grounds",
-		"replaces": "Barracks",
-		"uniqueTo": "Thuntopia",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+15]% Production when constructing [Sword] units [in this city]",
-		"New [Military] units start with [15] Experience [in this city]",
-                "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
-	},
-	{	"name": "Sparring Grounds",
+	{
+		"name": "Sparring Grounds",
 		"replaces": "Barracks",
 		"uniqueTo": "Thunjaya",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+20]% Production when constructing [Sword] units [in this city]",
-		"New [Military] units start with [15] Experience [in this city]",
+		"New [Military] units start with [15] XP [in this city]",
                 "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
@@ -255,7 +246,7 @@
 		"cost": 300,
 		"maintenance": 1,
 		"uniques": ["[+25]% Production when constructing [Gunpowder] units [in this city]",
-		"New [Military] units start with [15] Experience [in this city]",
+		"New [Military] units start with [15] XP [in this city]",
                 "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
@@ -468,7 +459,7 @@
 		"culture": 4,
 		"isNationalWonder": true,
 		"uniques": [
-			"New [All] units start with [+15] Experience [in this city]",
+			"New [All] units start with [+15] XP [in this city]",
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			],
 		"requiredTech": "Iron Working"
@@ -549,21 +540,23 @@
 	},
 	//Midori(EbiKoumori)
     {
-		"name": "Grimoire of Buildings.json",
+		"name": "Buildings.json Parser",
 		"uniqueTo": "Midori",
 		"replaces": "National Epic",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Gain a free [Buildings] [in all cities] <every [50] turns>"],
-		"requiredTech": "Engineering"
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Gain a free [Buildings] [in all cities] <every [50] turns>","Cost increases by [30] per owned city"],
+		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Grimoire of Techs.json",
+		"name": "Grimoire of Modders Documentation",
 		"uniqueTo": "Midori",
 		"replaces": "National College",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Research [50]% of [All] <every [10] turns>"],//that mean random technology
-		"requiredTech": "Engineering"
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["[+1 Science] <for every [3] [[Science] Per Turn]>","Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
 	}
 ]
