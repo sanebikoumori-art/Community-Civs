@@ -1104,32 +1104,31 @@
 	},
 	// EbiKoumori
 	{
-		"name": "Blue Ocean",
+		"name": "Midori",
 		"leaderName": "EbiKoumori",
-		"adjective": ["Ebito"],
-		"outerColor": [0, 174, 255],
-		"innerColor": [255, 255, 255],
+		"adjective": ["Midoru"],
+		"outerColor": [192, 84, 81],
+		"innerColor": [255, 255, 225],
 
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
-	    "personality": "Ekadessva"
+		"preferredVictoryType": "Scientific",
+	    "personality": "Autumn"
 
-		"startIntroPart1": "Your people has wait for you, The Civilian has awaited your comeback. Now, that you're here, Come and Lead Ekadesssva back to its glory!",
+		"startIntroPart1": "our people has wait for you, The Civilian has awaited your comeback. Now, that you're here, Come and Lead Midori back to its glory!",
 		"startIntroPart2": "Even after the war, we will always regroup and win back our freedom! Lead the People To it's former glory!"
 
-		"introduction": "Hello, Newcomers, It's seems like our path has come to crossed! May you get along with us!",
-		"declaringWar": "...",
-		"attacked": "Our soldier may forgive you, but our unity does NOT forgive you.",
-		"defeated": "Soon... Our left people with get revenge on you... May unity crush you...",
+		"introduction": "Ah, hello. haha... today is... windy.. um, do you like autumn?",
+		"declaringWar": "Autumn is harvest season, the best time to harvest the territory.",
+		"attacked": "Your land will be stained with blood... nah with autumn!",
+		"defeated": "Woooooooooooahhhhhhhhhhhhhh(Death)",
 
 		"neutralHello": "Hi! You wanna trade or something?",
-		"hateHello": "....",
-    	"tradeRequest": "...",
+		"hateHello": "",
+    	"tradeRequest": "",
 
 		"uniqueName": "Endless Autumn",
 		"uniques": ["[+1 Food] from [{Featureless} {Autumnland}] tiles [in all cities]","Comment [All units gain Autumn Curse Promotion (on death, generate Autumn Land on land). This spreads to all adjacent units.]","All newly-trained [All] units [in all cities] receive the [Autumn Curse] promotion <hidden from users>"],
-		"cities": ["Ekadessva","Ekadessva City","Ekadessva Town","Ekadessva Village","Ekadessvaburg","Ekadessvaville"] //Temporary
+		"cities": ["Nutaunagi","Midorimushi","Ebimori","Akagai","Blue Sango","Tanicity","Rikugani","Benizuwaigani","Yatsumeunagi","Maguro","Kurage","Iruka","Umigame","Koumoriebi","Hirame","Unagi","Iseebi","Shiroiruka","Kawairuka","Suppon"],
+		"spyNames":["Mazime","Sekkachi","Okubyo","Namake","Ikari","Raku","Utu"]
 	}
-
-
 ]
